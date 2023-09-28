@@ -5,7 +5,8 @@ Startting My decops and software / system engineering at alx today!!💪💪💪
 Created a total of 20 bash scripts files and made them executable
 
 ## Resources
-Below are the study materials I used for this project which were used in completing the assignments:
+Below are the study materials I used for this project which were used in completing the assignments
+
  [What is "the shell"](http://linuxcommand.org/lc3_lts0010.php)
  [Navigation](http://linuxcommand.org/lc3_lts0020.php)
  [Looking around](http://linuxcommand.org/lc3_lts0030.php)
