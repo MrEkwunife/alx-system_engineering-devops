@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%o\n" $((5#$(echo $WATER | tr -d 'water')) + 5#$(echo $STIR | tr -d 'stir.')) | tr '01234567' 'behlnort'
+printf "%s\n" $(echo "ibase=5;obase=8;$(echo $WATER | tr -d 'water') + $(echo $STIR | tr -d 'stir.')" | bc | tr '01234567' 'behlnort')
