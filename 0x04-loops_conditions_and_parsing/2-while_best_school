@@ -5,5 +5,5 @@ num=0
 while [ $num -lt 9 ]
 do
 	echo "Best School"
-	((num++))
+	(( num++ ))
 done
