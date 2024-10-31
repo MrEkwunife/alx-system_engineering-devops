@@ -2,7 +2,7 @@
 # Prints "Best School" 10 times using while loop
 
 num=0
-while [ $num -lt 9 ]
+while [ $num -lt 10 ]
 do
 	echo "Best School"
 	(( num++ ))
