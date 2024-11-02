@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Kills processes that're using a given file
+prog_pid=()
+readarray -t prog_pid < <(pgrep -la -x "bash.*" | grep '7-highlander' | cut -d ' ' -f 1)
+for ((i = 0; i < "${#prog_pid[@]}"; i++)) do
+  kill -s SIGKILL "${prog_pid[i]}"
+done
